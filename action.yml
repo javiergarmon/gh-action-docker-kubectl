@@ -6,7 +6,7 @@ branding:
   icon: 'command'
 runs:
   using: 'docker'
-  image: 'mrgarmon/gh-action-docker-kubectl'
+  image: 'docker://mrgarmon/gh-action-docker-kubectl:latest'
 inputs:
   aws_access_key_id:
     description: Your AWS_ACCESS_KEY_ID
